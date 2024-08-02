@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+@tailwind components;
+
+.active{
+    @apply text-orange-500
+}
+
+.activePagination{
+    @apply text-orange-500
+}
+
+.activeBtn{
+    @apply text-orange-500
+}
+
+/* @layer components {
+    .activeBtn {
+      @apply bg-orange-500 text-black;
+    }
+  } */
